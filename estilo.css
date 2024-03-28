@@ -1,0 +1,67 @@
+/* DOCUMENTO CSS - Projeto Card */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    color: black;
+}
+#topo {
+    background-color: purple;
+    height: 200px;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0.1em 0.1em red;
+}
+#conteudo {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#yoshi {
+    height: 290px;
+}
+.card {
+    width: 300px;
+    height: 650px;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #a4a4a4;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card figure {
+    width: 290px;
+    height: 290px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.card figure img {
+    width: 100%;
+}
+.card h2 {
+
+}
+.card p {
+
+}
+
+
+
+#rodape {
+    background-color: purple;
+    height: 100px;
+}
